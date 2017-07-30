@@ -1,0 +1,14 @@
+{
+    "name": "rocketcode/requestlog",
+    "description": "A laravel package to log all requests and responses",
+    "require": {
+        "laravel/laravel": "^5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tony Santucci",
+            "email": "santucci@rocketcode.io"
+        }
+    ]
+}
