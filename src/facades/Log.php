@@ -7,8 +7,11 @@
  */
 
 namespace Rocketcode\RequestLog\Facades;
-class LogFacade {
-	protected static function getFacadeAccessor() {
-		return 'Rocketcode\RequestLog';
-	}
+
+class Log
+{
+    protected static function getFacadeAccessor()
+    {
+        return 'Rocketcode\RequestLog';
+    }
 }
