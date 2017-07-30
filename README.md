@@ -31,11 +31,12 @@ After installing just register the ```Rocketcode\RequestLog\RequestLogServicePro
 ]
 ```
 
-### Publishing
-If you want to change any of the default options you can publish
- the migrations and the configuration.
+### Publishing 
+Publish and run the migration.  This will also publish the config options
+and you can modify them to your need.
 ```php
 php artisan vendor:publish --provider RequestLogServiceProvider
+php artisan migrate
 ```
 
 ### Usage

@@ -23,7 +23,7 @@ return [
             ],
             'response' => [
                 'headers' => true,
-                'body'    => false,
+                'body'    => true,
             ],
         ],
     ],
