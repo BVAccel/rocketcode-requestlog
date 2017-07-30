@@ -9,7 +9,8 @@ class RequestLogEvent extends Model
     protected $guarded = [];
     public $timestamps = false;
 
-    function log() {
-    	return $this->belongsTo( 'Rocketcode\RequestLog', 'id', 'parent_id');
+    public function log()
+    {
+        return $this->belongsTo('Rocketcode\RequestLog', 'id', 'parent_id');
     }
 }
