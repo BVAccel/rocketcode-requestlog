@@ -2,7 +2,7 @@
     "name": "rocketcodehq/requestlog",
     "description": "A laravel package to log all requests and responses",
     "require": {
-        "laravel/laravel": "^5.*"
+        "laravel/laravel": "^5.1"
     },
     "license": "MIT",
     "authors": [
