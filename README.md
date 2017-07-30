@@ -18,7 +18,7 @@ This package is open-sourced software licensed under the [MIT license](http://op
 Install RequestLog as you would with any other dependency managed by Composer:
 
 ```bash
-$ composer require rocketcode/requestlog
+$ composer require rocketcodehq/requestlog
 ```
 
 ### Configuration
