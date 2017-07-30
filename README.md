@@ -40,3 +40,20 @@ php artisan migrate
 ```
 
 ### Usage
+Register the middleware.  Depending on your desires you can set it in either
+the global section or the routed section of your Http/Kernel.php
+```php
+
+// Global
+protected $middleware = [
+    ...
+	\Rocketcode\RequestLog\Http\Middleware\RequestLogMiddleware::class,
+];
+
+// Routed
+protected $routeMiddleware = [
+    ...
+    'requestlog' => \Rocketcode\RequestLog\Http\Middleware\RequestLogMiddleware::class,
+];
+
+```
